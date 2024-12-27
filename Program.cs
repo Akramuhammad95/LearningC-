@@ -12,6 +12,10 @@ namespace Africa
             Console.WriteLine("Pyramids of Egypt");
 
         }
+        public void Nile()
+        {
+            Console.WriteLine("Nile River");
+        }
 
     }
 }
@@ -23,6 +27,7 @@ namespace Africa
             {
                 Africa.Egypt egypt = new Africa.Egypt();
                 egypt.Pyramids();
-            }
+            egypt.Nile();
+        }
         }
     }
