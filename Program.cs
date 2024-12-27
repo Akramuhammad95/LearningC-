@@ -3,13 +3,26 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
-namespace LearningProject
+namespace Africa
 {
-    internal class Program
+    class Egypt
     {
-        static void Main(string[] args)
+        public void Pyramids()
         {
+            Console.WriteLine("Pyramids of Egypt");
+
         }
+
     }
 }
+    namespace LearningProject
+    {
+        internal class Program
+        {
+            private static void Main(string[] args)
+            {
+                Africa.Egypt egypt = new Africa.Egypt();
+                egypt.Pyramids();
+            }
+        }
+    }
